@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">数独游戏</string>
+    <string name="no_used_number">备选数字</string>
+</resources>

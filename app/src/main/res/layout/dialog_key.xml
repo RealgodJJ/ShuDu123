@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TableLayout
+            android:id="@+id/keypad"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+        <TableRow>
+
+            <Button
+                    android:id="@+id/first_button"/>
+
+            <Button
+                    android:id="@+id/second_button"/>
+
+            <Button
+                    android:id="@+id/third_button"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                    android:id="@+id/fourth_button"/>
+
+            <Button
+                    android:id="@+id/fifth_button"/>
+
+            <Button
+                    android:id="@+id/sixth_button"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                    android:id="@+id/seventh_button"/>
+
+            <Button
+                    android:id="@+id/eighth_button"/>
+
+            <Button
+                    android:id="@+id/ninth_button"/>
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
